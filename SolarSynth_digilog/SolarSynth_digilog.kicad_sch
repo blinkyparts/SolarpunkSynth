@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "63d13d96-b490-4e1d-a00f-7f9859883927")
 	(paper "A4")
 	(lib_symbols
@@ -77,18 +77,6 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -2.54) (xy 0.635 -3.175) (xy 1.27 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -1.905 -2.54) (xy -1.27 -3.175) (xy -0.635 -2.54) (xy -0.635 0) (xy 2.54 0)
 					)
 					(stroke
@@ -101,7 +89,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 2.54) (xy -2.54 2.54) (xy -2.54 -2.54) (xy -3.175 -3.175) (xy -3.81 -2.54)
+						(xy 0 -2.54) (xy 0.635 -3.175) (xy 1.27 -2.54) (xy 2.54 -2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -122,6 +110,18 @@
 						(type background)
 					)
 				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy -2.54 2.54) (xy -2.54 -2.54) (xy -3.175 -3.175) (xy -3.81 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
 			(symbol "AudioJack3-Connector_6_1_1"
 				(pin passive line
@@ -135,24 +135,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -178,7 +160,26 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "74xx:74HC14"
 			(pin_names
@@ -309,7 +310,7 @@
 			(symbol "74HC14_1_1"
 				(polyline
 					(pts
-						(xy -1.905 -1.27) (xy -1.905 1.27) (xy -0.635 1.27)
+						(xy -2.54 -1.27) (xy -0.635 -1.27) (xy -0.635 1.27) (xy 0 1.27)
 					)
 					(stroke
 						(width 0)
@@ -321,7 +322,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 -1.27) (xy -0.635 -1.27) (xy -0.635 1.27) (xy 0 1.27)
+						(xy -1.905 -1.27) (xy -1.905 1.27) (xy -0.635 1.27)
 					)
 					(stroke
 						(width 0)
@@ -385,7 +386,7 @@
 			(symbol "74HC14_2_1"
 				(polyline
 					(pts
-						(xy -1.905 -1.27) (xy -1.905 1.27) (xy -0.635 1.27)
+						(xy -2.54 -1.27) (xy -0.635 -1.27) (xy -0.635 1.27) (xy 0 1.27)
 					)
 					(stroke
 						(width 0)
@@ -397,7 +398,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 -1.27) (xy -0.635 -1.27) (xy -0.635 1.27) (xy 0 1.27)
+						(xy -1.905 -1.27) (xy -1.905 1.27) (xy -0.635 1.27)
 					)
 					(stroke
 						(width 0)
@@ -461,7 +462,7 @@
 			(symbol "74HC14_3_1"
 				(polyline
 					(pts
-						(xy -1.905 -1.27) (xy -1.905 1.27) (xy -0.635 1.27)
+						(xy -2.54 -1.27) (xy -0.635 -1.27) (xy -0.635 1.27) (xy 0 1.27)
 					)
 					(stroke
 						(width 0)
@@ -473,7 +474,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 -1.27) (xy -0.635 -1.27) (xy -0.635 1.27) (xy 0 1.27)
+						(xy -1.905 -1.27) (xy -1.905 1.27) (xy -0.635 1.27)
 					)
 					(stroke
 						(width 0)
@@ -497,24 +498,6 @@
 						(type background)
 					)
 				)
-				(pin output inverted
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -7.62 0 0)
 					(length 3.81)
@@ -533,11 +516,29 @@
 						)
 					)
 				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(symbol "74HC14_4_1"
 				(polyline
 					(pts
-						(xy -1.905 -1.27) (xy -1.905 1.27) (xy -0.635 1.27)
+						(xy -2.54 -1.27) (xy -0.635 -1.27) (xy -0.635 1.27) (xy 0 1.27)
 					)
 					(stroke
 						(width 0)
@@ -549,7 +550,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 -1.27) (xy -0.635 -1.27) (xy -0.635 1.27) (xy 0 1.27)
+						(xy -1.905 -1.27) (xy -1.905 1.27) (xy -0.635 1.27)
 					)
 					(stroke
 						(width 0)
@@ -573,24 +574,6 @@
 						(type background)
 					)
 				)
-				(pin output inverted
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -7.62 0 0)
 					(length 3.81)
@@ -609,11 +592,29 @@
 						)
 					)
 				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(symbol "74HC14_5_1"
 				(polyline
 					(pts
-						(xy -1.905 -1.27) (xy -1.905 1.27) (xy -0.635 1.27)
+						(xy -2.54 -1.27) (xy -0.635 -1.27) (xy -0.635 1.27) (xy 0 1.27)
 					)
 					(stroke
 						(width 0)
@@ -625,7 +626,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 -1.27) (xy -0.635 -1.27) (xy -0.635 1.27) (xy 0 1.27)
+						(xy -1.905 -1.27) (xy -1.905 1.27) (xy -0.635 1.27)
 					)
 					(stroke
 						(width 0)
@@ -649,24 +650,6 @@
 						(type background)
 					)
 				)
-				(pin output inverted
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -7.62 0 0)
 					(length 3.81)
@@ -685,11 +668,29 @@
 						)
 					)
 				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(symbol "74HC14_6_1"
 				(polyline
 					(pts
-						(xy -1.905 -1.27) (xy -1.905 1.27) (xy -0.635 1.27)
+						(xy -2.54 -1.27) (xy -0.635 -1.27) (xy -0.635 1.27) (xy 0 1.27)
 					)
 					(stroke
 						(width 0)
@@ -701,7 +702,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 -1.27) (xy -0.635 -1.27) (xy -0.635 1.27) (xy 0 1.27)
+						(xy -1.905 -1.27) (xy -1.905 1.27) (xy -0.635 1.27)
 					)
 					(stroke
 						(width 0)
@@ -763,6 +764,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Amplifier_Operational:MCP6002-xMC"
 			(pin_names
@@ -855,17 +857,17 @@
 						(type background)
 					)
 				)
-				(pin output line
-					(at 7.62 0 180)
+				(pin input line
+					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "~"
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -891,17 +893,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -7.62 2.54 0)
+				(pin output line
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "+"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -980,24 +982,6 @@
 			)
 			(symbol "MCP6002-xMC_3_1"
 				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
 					(at -2.54 7.62 270)
 					(length 3.81)
 					(name "V+"
@@ -1015,9 +999,28 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at -2.54 -7.62 90)
-					(length 3.81) hide
+					(length 3.81)
+					(hide yes)
 					(name "V-"
 						(effects
 							(font
@@ -1034,10 +1037,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector:Conn_01x01_Pin"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1111,6 +1117,17 @@
 				)
 			)
 			(symbol "Conn_01x01_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(polyline
 					(pts
 						(xy 1.27 0) (xy 0.8636 0)
@@ -1121,17 +1138,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 				(pin passive line
@@ -1153,9 +1159,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -1228,7 +1237,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -1240,7 +1249,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -1289,9 +1298,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C_Polarized"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -1447,11 +1459,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C_Polarized_US"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1554,9 +1571,9 @@
 					)
 				)
 				(arc
-					(start 1.6509 -1.2861)
+					(start -1.6511 -1.286)
 					(mid 0.0001 6.7071)
-					(end -1.6511 -1.286)
+					(end 1.6509 -1.2861)
 					(stroke
 						(width 0.508)
 						(type default)
@@ -1604,9 +1621,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -1725,10 +1745,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R_Potentiometer"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1794,12 +1817,11 @@
 				)
 			)
 			(symbol "R_Potentiometer_0_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.524 0)
-					)
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -1818,11 +1840,12 @@
 						(type outline)
 					)
 				)
-				(rectangle
-					(start 1.016 2.54)
-					(end -1.016 -2.54)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1850,24 +1873,6 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "3"
@@ -1885,13 +1890,36 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1982,12 +2010,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:VCC"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2059,7 +2092,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -2071,7 +2104,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -2102,7 +2135,138 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "svg2shenzhen"
+		(exclude_from_sim no)
+		(at 261.112 130.048 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "00f05f75-b3ef-4b3d-8186-452c01a092e6")
+	)
+	(text "Pads to connect cables\nto Piezo discs"
+		(exclude_from_sim no)
+		(at 137.668 59.436 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "089dc197-fd13-4ee0-9dd9-f98b5e77f286")
+	)
+	(text "Oscillators output"
+		(exclude_from_sim no)
+		(at 235.458 27.178 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "0f3eb2d1-dd51-4598-9d1c-a3fa5ee41b89")
+	)
+	(text "Reduce power\neven more\n(skip all?)"
+		(exclude_from_sim no)
+		(at 63.754 132.588 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "10c24217-a629-4266-a186-9259211f3374")
+	)
+	(text "op-amp\nBuffer"
+		(exclude_from_sim no)
+		(at 148.082 122.682 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "18b7d57a-a43d-4e44-8d08-2c9fe2bfdd7e")
+	)
+	(text "op-amp\n6002\n"
+		(exclude_from_sim no)
+		(at 103.886 147.32 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "29bf694d-27cf-4e0c-9cd8-b360302da168")
+	)
+	(text "weird resistor\nto ground?"
+		(exclude_from_sim no)
+		(at 41.148 185.674 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "33bab23d-3dfa-4bc5-bece-a3407872ab60")
+	)
+	(text "74HC14"
+		(exclude_from_sim no)
+		(at 50.8 151.384 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "7e8d1ba0-9d44-46fc-8cfd-e965c7163e4a")
+	)
+	(text "buffered output"
+		(exclude_from_sim no)
+		(at 192.278 140.462 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "b61ca4d4-0dde-4345-a5c3-97c5aeb5dcf0")
+	)
+	(text "Pads to connect \nDSSC panel + / -"
+		(exclude_from_sim no)
+		(at 35.814 44.958 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "f89ff6df-3c19-409f-94f8-0d9000432bdd")
 	)
 	(junction
 		(at 163.83 81.28)
@@ -2201,16 +2365,16 @@
 		(uuid "b7f2d031-6792-4c11-856a-5269087532ae")
 	)
 	(junction
+		(at 207.01 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bedee791-fcfb-4444-9da6-903610b532c8")
+	)
+	(junction
 		(at 105.41 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf1ebcaf-352b-4ffb-a2fc-0f54b9ba737d")
-	)
-	(junction
-		(at 220.98 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e0694935-4503-4e67-8417-d8e7324ec70d")
 	)
 	(junction
 		(at 152.4 162.56)
@@ -2342,16 +2506,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 110.49) (xy 220.98 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b318b1e-47d1-475b-a202-bf6e83e92ee8")
-	)
-	(wire
-		(pts
 			(xy 105.41 69.85) (xy 105.41 81.28)
 		)
 		(stroke
@@ -2422,7 +2576,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 119.38) (xy 238.76 119.38)
+			(xy 207.01 119.38) (xy 238.76 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2652,6 +2806,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 110.49) (xy 207.01 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57c8a44e-eb63-4564-a7f6-d578c8727366")
+	)
+	(wire
+		(pts
 			(xy 116.84 160.02) (xy 134.62 160.02)
 		)
 		(stroke
@@ -2659,6 +2823,16 @@
 			(type default)
 		)
 		(uuid "57e8409a-e03e-44d7-8d40-401f535c1abe")
+	)
+	(wire
+		(pts
+			(xy 210.82 110.49) (xy 207.01 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a7ef5b0-4e8b-401a-bad6-ac4cfe66c89e")
 	)
 	(wire
 		(pts
@@ -2732,7 +2906,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 119.38) (xy 220.98 119.38)
+			(xy 176.53 119.38) (xy 207.01 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3322,16 +3496,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 110.49) (xy 220.98 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb878640-22d9-46b0-a6e3-1769d9338c58")
-	)
-	(wire
-		(pts
 			(xy 175.26 148.59) (xy 175.26 147.32)
 		)
 		(stroke
@@ -3359,136 +3523,6 @@
 			(type default)
 		)
 		(uuid "fe798a49-095c-4542-b24d-a6fe5db92161")
-	)
-	(text "svg2shenzhen"
-		(exclude_from_sim no)
-		(at 261.112 130.048 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-			)
-		)
-		(uuid "00f05f75-b3ef-4b3d-8186-452c01a092e6")
-	)
-	(text "Pads to connect cables\nto Piezo discs"
-		(exclude_from_sim no)
-		(at 137.668 59.436 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-			)
-		)
-		(uuid "089dc197-fd13-4ee0-9dd9-f98b5e77f286")
-	)
-	(text "Oscillators output"
-		(exclude_from_sim no)
-		(at 235.458 27.178 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-			)
-		)
-		(uuid "0f3eb2d1-dd51-4598-9d1c-a3fa5ee41b89")
-	)
-	(text "Reduce power\neven more\n(skip all?)"
-		(exclude_from_sim no)
-		(at 63.754 132.588 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-			)
-		)
-		(uuid "10c24217-a629-4266-a186-9259211f3374")
-	)
-	(text "op-amp\nBuffer"
-		(exclude_from_sim no)
-		(at 148.082 122.682 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-			)
-		)
-		(uuid "18b7d57a-a43d-4e44-8d08-2c9fe2bfdd7e")
-	)
-	(text "op-amp\n6002\n"
-		(exclude_from_sim no)
-		(at 103.886 147.32 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-			)
-		)
-		(uuid "29bf694d-27cf-4e0c-9cd8-b360302da168")
-	)
-	(text "weird resistor\nto ground?"
-		(exclude_from_sim no)
-		(at 41.148 185.674 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-			)
-		)
-		(uuid "33bab23d-3dfa-4bc5-bece-a3407872ab60")
-	)
-	(text "74HC14"
-		(exclude_from_sim no)
-		(at 50.8 151.384 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-			)
-		)
-		(uuid "7e8d1ba0-9d44-46fc-8cfd-e965c7163e4a")
-	)
-	(text "buffered output"
-		(exclude_from_sim no)
-		(at 192.278 140.462 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-			)
-		)
-		(uuid "b61ca4d4-0dde-4345-a5c3-97c5aeb5dcf0")
-	)
-	(text "Pads to connect \nDSSC panel + / -"
-		(exclude_from_sim no)
-		(at 35.814 44.958 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-			)
-		)
-		(uuid "f89ff6df-3c19-409f-94f8-0d9000432bdd")
 	)
 	(global_label "Left"
 		(shape input)
@@ -3924,7 +3958,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "007_dusjagr:R_1206_noGND"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 115.062 153.67 90)
 			(effects
 				(font
@@ -3968,7 +4002,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer")
-		(at 73.66 110.49 180)
+		(at 73.66 110.49 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3976,7 +4011,7 @@
 		(dnp no)
 		(uuid "298410c1-f41b-4a7c-ba1a-a7beff1fb1eb")
 		(property "Reference" "RV1"
-			(at 75.184 107.95 0)
+			(at 75.184 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3985,7 +4020,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 75.438 110.236 0)
+			(at 75.438 110.744 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3993,7 +4028,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "007_dusjagr:RD901F-ALPHA-3D_minis"
+		(property "Footprint" "blinkyparts:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_bigger-holes"
 			(at 73.66 110.49 0)
 			(effects
 				(font
@@ -4066,7 +4101,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "007_dusjagr:R_1206_noGND"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 122.682 143.51 90)
 			(effects
 				(font
@@ -4134,7 +4169,7 @@
 				)
 			)
 		)
-		(property "Footprint" "007_dusjagr:C_1210_noGND"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 138.43 99.3648 0)
 			(effects
 				(font
@@ -4269,7 +4304,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "007_dusjagr:R_1206_noGND"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 122.682 130.81 90)
 			(effects
 				(font
@@ -4337,7 +4372,7 @@
 				)
 			)
 		)
-		(property "Footprint" "007_dusjagr:R_1206_noGND"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 49.53 179.578 90)
 			(effects
 				(font
@@ -4539,7 +4574,7 @@
 				)
 			)
 		)
-		(property "Footprint" "007_dusjagr:C_1210_noGND"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
 			(at 212.09 33.3248 0)
 			(effects
 				(font
@@ -4777,7 +4812,7 @@
 				)
 			)
 		)
-		(property "Footprint" "007_dusjagr:C_1210_noGND"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 72.39 99.3648 0)
 			(effects
 				(font
@@ -4845,7 +4880,7 @@
 				)
 			)
 		)
-		(property "Footprint" "007_dusjagr:C_1210_noGND"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
 			(at 162.56 161.5948 0)
 			(effects
 				(font
@@ -5455,7 +5490,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "007_dusjagr:R_1206_noGND"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 139.192 88.9 90)
 			(effects
 				(font
@@ -5591,7 +5626,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "007_dusjagr:R_1206_noGND"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 115.062 166.37 90)
 			(effects
 				(font
@@ -5815,7 +5850,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "007_dusjagr:R_1206_noGND"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 57.912 161.29 90)
 			(effects
 				(font
@@ -6054,7 +6089,7 @@
 				)
 			)
 		)
-		(property "Footprint" "007_dusjagr:C_1210_noGND"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 210.82 99.3648 0)
 			(effects
 				(font
@@ -6187,7 +6222,7 @@
 				)
 			)
 		)
-		(property "Footprint" "007_dusjagr:C_1210_noGND"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
 			(at 162.56 138.7348 0)
 			(effects
 				(font
@@ -6597,7 +6632,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer")
-		(at 41.91 140.97 270)
+		(at 41.91 140.97 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6606,14 +6642,6 @@
 		(fields_autoplaced yes)
 		(uuid "becafb32-cf0f-41f2-9242-f2d199fb8fc3")
 		(property "Reference" "RV3"
-			(at 41.91 134.62 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
 			(at 41.91 137.16 90)
 			(effects
 				(font
@@ -6621,7 +6649,15 @@
 				)
 			)
 		)
-		(property "Footprint" "007_dusjagr:RD901F-ALPHA-3D_longpads"
+		(property "Value" "100k"
+			(at 41.91 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "blinkyparts:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_bigger-holes"
 			(at 41.91 140.97 0)
 			(effects
 				(font
@@ -6774,7 +6810,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer")
-		(at 214.63 110.49 0)
+		(at 214.63 110.49 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6783,7 +6819,7 @@
 		(fields_autoplaced yes)
 		(uuid "c2c2dba2-a711-4323-b091-afbffe83822e")
 		(property "Reference" "RV2"
-			(at 212.09 109.2199 0)
+			(at 217.17 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6792,7 +6828,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 212.09 111.7599 0)
+			(at 217.17 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6800,7 +6836,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "007_dusjagr:RD901F-ALPHA-3D_minis"
+		(property "Footprint" "blinkyparts:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_bigger-holes"
 			(at 214.63 110.49 0)
 			(effects
 				(font
@@ -7238,7 +7274,7 @@
 				)
 			)
 		)
-		(property "Footprint" "007_dusjagr:C_1210_noGND"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
 			(at 212.09 61.2648 0)
 			(effects
 				(font
@@ -7285,4 +7321,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
