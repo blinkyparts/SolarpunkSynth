@@ -3640,7 +3640,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "007_dusjagr:AUDIO-JACK-3.5mm_SMD_noHole"
+		(property "Footprint" "002_Solarpunk:AUDIO-JACK-3.5mm_SMD_noHole"
 			(at 181.61 149.86 0)
 			(effects
 				(font
@@ -3713,7 +3713,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "007_dusjagr:DIP-8_W7.62mm_LongerPads"
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_LongPads"
 			(at 100.33 175.26 0)
 			(effects
 				(font
@@ -3802,7 +3802,7 @@
 				)
 			)
 		)
-		(property "Footprint" "007_dusjagr:DIP-8_W7.62mm_LongerPads"
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_LongPads"
 			(at 142.24 139.7 0)
 			(effects
 				(font
@@ -3891,7 +3891,7 @@
 				)
 			)
 		)
-		(property "Footprint" "007_dusjagr:SolderPad_small"
+		(property "Footprint" "002_Solarpunk:SolderPad_small"
 			(at 185.42 62.23 0)
 			(effects
 				(font
@@ -4442,7 +4442,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "007_dusjagr:SolderPad_small"
+		(property "Footprint" "002_Solarpunk:SolderPad_small"
 			(at 105.41 64.77 0)
 			(effects
 				(font
@@ -4509,7 +4509,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "007_dusjagr:SolderPad_small"
+		(property "Footprint" "002_Solarpunk:SolderPad_small"
 			(at 200.66 105.41 0)
 			(effects
 				(font
@@ -4708,7 +4708,7 @@
 				)
 			)
 		)
-		(property "Footprint" "007_dusjagr:DIP-14_W7.62mm_LongerPads"
+		(property "Footprint" "002_Solarpunk:DIP-14_W7.62mm_LongerPads"
 			(at 83.82 100.33 0)
 			(effects
 				(font
@@ -4948,7 +4948,7 @@
 				)
 			)
 		)
-		(property "Footprint" "007_dusjagr:DIP-14_W7.62mm_LongerPads"
+		(property "Footprint" "002_Solarpunk:DIP-14_W7.62mm_LongerPads"
 			(at 224.79 100.33 0)
 			(effects
 				(font
@@ -5052,7 +5052,7 @@
 				)
 			)
 		)
-		(property "Footprint" "007_dusjagr:DIP-14_W7.62mm_LongerPads"
+		(property "Footprint" "002_Solarpunk:DIP-14_W7.62mm_LongerPads"
 			(at 52.07 100.33 0)
 			(effects
 				(font
@@ -5694,7 +5694,7 @@
 				)
 			)
 		)
-		(property "Footprint" "007_dusjagr:DIP-8_W7.62mm_LongerPads"
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_LongPads"
 			(at 142.24 162.56 0)
 			(effects
 				(font
@@ -5985,7 +5985,7 @@
 				)
 			)
 		)
-		(property "Footprint" "007_dusjagr:DIP-14_W7.62mm_LongerPads"
+		(property "Footprint" "002_Solarpunk:DIP-14_W7.62mm_LongerPads"
 			(at 151.13 100.33 0)
 			(effects
 				(font
@@ -6157,7 +6157,7 @@
 				)
 			)
 		)
-		(property "Footprint" "007_dusjagr:SolarPad_VCC"
+		(property "Footprint" "002_Solarpunk:SolarPad_VCC"
 			(at 31.75 35.56 0)
 			(effects
 				(font
@@ -6422,7 +6422,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "007_dusjagr:SolderPad_small"
+		(property "Footprint" "002_Solarpunk:SolderPad_small"
 			(at 195.58 105.41 0)
 			(effects
 				(font
@@ -6487,7 +6487,7 @@
 				)
 			)
 		)
-		(property "Footprint" "007_dusjagr:DIP-14_W7.62mm_LongerPads"
+		(property "Footprint" "002_Solarpunk:DIP-14_W7.62mm_LongerPads"
 			(at 185.42 100.33 0)
 			(effects
 				(font
@@ -6730,7 +6730,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "007_dusjagr:DIP-14_W7.62mm_LongerPads"
+		(property "Footprint" "002_Solarpunk:DIP-14_W7.62mm_LongerPads"
 			(at 41.91 161.29 0)
 			(effects
 				(font
@@ -6907,7 +6907,7 @@
 				)
 			)
 		)
-		(property "Footprint" "007_dusjagr:SolderPad_small"
+		(property "Footprint" "002_Solarpunk:SolderPad_small"
 			(at 76.2 63.5 0)
 			(effects
 				(font
@@ -7038,7 +7038,7 @@
 				)
 			)
 		)
-		(property "Footprint" "007_dusjagr:SolarPad_VCC"
+		(property "Footprint" "002_Solarpunk:SolarPad_VCC"
 			(at 31.75 58.42 0)
 			(effects
 				(font
@@ -7103,7 +7103,7 @@
 				)
 			)
 		)
-		(property "Footprint" "007_dusjagr:DIP-14_W7.62mm_LongerPads"
+		(property "Footprint" "002_Solarpunk:DIP-14_W7.62mm_LongerPads"
 			(at 118.11 100.33 0)
 			(effects
 				(font
@@ -7209,7 +7209,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "007_dusjagr:SolderPad_small"
+		(property "Footprint" "002_Solarpunk:SolderPad_small"
 			(at 163.83 66.04 0)
 			(effects
 				(font
